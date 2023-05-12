@@ -19,9 +19,7 @@ git commands
         git reset [commit] ->undoes all the commits after the specified commit and preserves the changes locally.
         git reset –hard [commit] ->discards all history and goes back to the specified commit.
         git status ->command lists all the files that have to be committed.
-
-    9 ) git rm [file] ->deletes the file from your working directory and stages the deletion.
-
+        git rm [file] ->deletes the file from your working directory and stages the deletion.
         git log ->used to list the version history for the current branch.
         git log –follow[file] ->lists version history for a file, including the renaming of files also.
         git show [commit] ->shows the metadata and content changes of the specified commit.
